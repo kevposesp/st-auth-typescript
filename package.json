@@ -1,0 +1,32 @@
+{
+  "name": "st-auth-typescript",
+  "version": "0.6.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
+  "author": "kevposesp",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.5.1",
+    "@types/sequelize": "^4.28.20",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}
